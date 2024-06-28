@@ -1,0 +1,6 @@
+% ffmeg
+
+# This command will extract the frames from example.gif and save them as frame_000.png, frame_001.png, etc., in the output_frames directory.
+ffmpeg -i <input> output_frames/frame_%03d.png
+
+$ branch: ls | grep .gif
